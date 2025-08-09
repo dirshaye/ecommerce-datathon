@@ -10,6 +10,7 @@
 
 **Important:**
 - Never push model files, result outputs, or any large/generated artifacts (e.g., files in `models/`, `results/`, or raw data) to the repository. These are ignored by `.gitignore` and should remain local.
+- Note: The `models/` and `results/` folders are always present locally (with a `.gitkeep` file), but GitHub may not display them in the UI if they are completely empty. As soon as you add a tracked file (like `.gitkeep`), they should appear, but sometimes GitHub's UI may still hide them until another file is added.
 
 ## Overview
 Predict clicked and purchased products per session. Evaluation is based on weighted Recall@K (click + purchase).
