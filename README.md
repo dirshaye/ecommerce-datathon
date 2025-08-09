@@ -8,6 +8,9 @@
 - After making changes, open a merge request (pull request) to merge your branch into `main`.
 - Review and discuss code in merge requests before merging.
 
+**Important:**
+- Never push model files, result outputs, or any large/generated artifacts (e.g., files in `models/`, `results/`, or raw data) to the repository. These are ignored by `.gitignore` and should remain local.
+
 ## Overview
 Predict clicked and purchased products per session. Evaluation is based on weighted Recall@K (click + purchase).
 
