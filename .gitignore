@@ -1,0 +1,40 @@
+# Ignore raw data and sensitive files
+/data/raw/
+*.zip
+*.csv
+*.parquet
+*.json
+
+# Ignore model artifacts
+/models/
+*.pkl
+*.joblib
+*.h5
+
+# Ignore results
+/results/
+
+# Ignore processed data (optional, keep only lightweight samples)
+# /data/processed/
+
+# Ignore Jupyter notebook checkpoints
+**/.ipynb_checkpoints/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment files
+.env
+.venv/
+venv/
+
+# Ignore hackathon specification file
+specification
+specification.*
+
+# Ignore system files
+.DS_Store
+Thumbs.db
