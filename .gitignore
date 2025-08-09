@@ -5,14 +5,17 @@
 *.parquet
 *.json
 
-# Ignore model artifacts
-/models/
+
+# Ignore model artifacts, but keep .gitkeep
+/models/*
+!/models/.gitkeep
 *.pkl
 *.joblib
 *.h5
 
-# Ignore results
-/results/
+# Ignore results, but keep .gitkeep
+/results/*
+!/results/.gitkeep
 
 # Ignore processed data (optional, keep only lightweight samples)
 # /data/processed/
@@ -30,10 +33,6 @@ __pycache__/
 .env
 .venv/
 venv/
-
-# Ignore hackathon specification file
-specification
-specification.*
 
 # Ignore system files
 .DS_Store
